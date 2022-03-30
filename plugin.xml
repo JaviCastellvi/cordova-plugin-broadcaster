@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-broadcaster" version="1.0.0"
+	xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>Broadcaster</name>
+	<js-module name="Broadcaster" src="www/broadcaster.js">
+		<clobbers target="cordova.plugins.broadcaster" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="Broadcaster">
+				<param name="android-package" value="org.apache.cordova.plugin.Broadcaster.BroadcasterPlugin" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml" />
+		<source-file src="src/android/BroadcasterPlugin.java" target-dir="src/org/apache/cordova/plugin/Broadcaster" />
+	</platform>
+</plugin>

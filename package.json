@@ -1,0 +1,13 @@
+{
+  "name": "cordova-plugin-broadcaster",
+  "version": "1.1.0",
+  "description": "Use the broadcast receiver plugin for the screen off and shutdown device intent actions.",
+  "main": "index.js",
+  "keywords": [
+    "cordova",
+    "unity",
+    "ecosystem:cordova"
+  ],
+  "author": "Javi Castellvi",
+  "license": "MIT"
+}
