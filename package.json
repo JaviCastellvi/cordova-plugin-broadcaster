@@ -9,5 +9,16 @@
     "ecosystem:cordova"
   ],
   "author": "Javi Castellvi",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaviCastellvi/cordova-plugin-broadcaster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JaviCastellvi/cordova-plugin-broadcaster/issues"
+  },
+  "homepage": "https://github.com/JaviCastellvi/cordova-plugin-broadcaster#readme"
 }
